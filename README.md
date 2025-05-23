@@ -4,6 +4,8 @@
 
 This project demonstrates the design and implementation of a secure, scalable, and isolated private network architecture using Amazon Web Services (AWS) Virtual Private Cloud (VPC). The setup ensures efficient traffic routing, secure remote access, and controlled internet exposure for EC2 instances through strategic subnet design and access control mechanisms.  <br>
 
+<hr>
+
 **Key Components and Implementation**  <br>
 
  • *Virtual Private Cloud (VPC):*  <br>
@@ -25,3 +27,9 @@ This project demonstrates the design and implementation of a secure, scalable, a
 • *Bastion Host (Jump Box):*  <br>
     - Launched a Bastion Host in the public subnet to act as a secure bridge for accessing private instances.   <br>
     - Configured SSH key-based access, restricting remote access only via the Bastion Host to enhance security.  <br>
+
+<hr>
+
+**Outcome**  <br>
+Successfully created a secure and robust private network environment in AWS. This design allows internal applications to run securely without  <br>
+public exposure while maintaining necessary external access through controlled and monitored pathways.  <br>
